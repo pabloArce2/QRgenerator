@@ -1,3 +1,3 @@
-const QRCode = document.getElementById('qrcode');
+const qrcode = document.getElementById('qrcode');
 
-new QRCode(QRCode, "https://www.google.com/");
+new QRCode(qrcode, "https://www.google.com/");
