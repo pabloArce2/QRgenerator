@@ -1,8 +1,3 @@
-var qrcode = new QRCode(document.getElementById("qrcode"), {
-	text: "google.com",
-	width: 128,
-	height: 128,
-	colorDark : "#000000",
-	colorLight : "#ffffff",
-	correctLevel : QRCode.CorrectLevel.H
-});
+const QRCode = document.getElementById('qrcode');
+
+new QRCode(QRCode, "https://www.google.com/");

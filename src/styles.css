@@ -1,0 +1,14 @@
+.title{
+    color: black;
+    font-size: 50px;
+}
+
+.qrs{
+    background-color: #F5F5DC;
+} 
+
+.qrcode{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;;
+}
