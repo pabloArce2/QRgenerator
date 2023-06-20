@@ -1,3 +1,9 @@
 const qrcode = document.getElementById('qrcode');
+const urlform = document.getElementById('urlform');
 
-new QRCode(qrcode, "https://www.google.com/");
+const QR = new QRCode(qrcode);
+
+urlform.addEventListener('submit', (e) => {
+    e.preventDefault();
+    QR.makeCode(urlform.url.value);
+});
